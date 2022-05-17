@@ -81,6 +81,7 @@ a{
 .black-text{
     color: black;
 }
+/* main */
 .bg-white{
     background-color: white;
 }
@@ -91,15 +92,34 @@ a{
  display: flex;
  height: 100%;
  max-width: 1200px;
- margin: 0 auto;
+ margin: 50px auto;
 }
+h2{
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.description {
+    font-size: 22px;
+    }
+/* container1 */
 .large-col{
+
+}
+.img1{
+    background-image: url(/img/item1.svg);
     flex-basis: 60%;
-    background-color: aquamarine;
+    background-size: contain ;
+    background-repeat: no-repeat;
 }
 .small-col{
-    flex-basis: 40%;
+    flex-basis: 27%;
     background-color: pink;
+    margin-top: 20px;
+  
+}
+.description {
+font-size: 20px;
 }
 .full-col{
     flex-basis: 100%;
