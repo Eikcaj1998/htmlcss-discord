@@ -6,13 +6,15 @@
     list-style-type: none;
     color: #fff;
 }
-
+i{
+    padding-right: 10px;
+}
 section{
-    padding: 0 auto;
+    padding: 0;
     height: 498px;
 }
 .container{
-    max-width: 1200;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .debug .border{
@@ -52,8 +54,7 @@ a{
 
 }
 /* jumbotron */
-#jumbotron{
-
+#jumbotron{   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +93,6 @@ a{
 }
 .section-container{
  display: flex;
- height: 600px;
  max-width: 1200px;
  margin: 50px auto;
  justify-content: space-around;
@@ -104,23 +104,19 @@ h2{
     font-size: 45px;
     font-weight: bold;
     padding-bottom: 25px;
-    color: black;
 }
-.description {
-    font-size: 22px;
-    }
 /* container1 */
 .large-col{
     flex-basis: 60%;
 }
 
 .small-col{
-    flex-basis: 27%;
-
-    align-items: flex-end;
+    flex-basis: 31%;
+margin-top: 27px;
 }
 .description {
-font-size: 20px;
+font-size: 28px;
+font-weight: normal;
 }
 .full-col{
     flex-basis: 100%;
@@ -131,33 +127,31 @@ font-size: 20px;
 }
 .final{
     display: flex;
-    max-width: 1200px;
-    margin: 50px auto;
     flex-direction: column;
-    align-content: stretch;
     text-align: center;
+
 }
 .mac{
     background-color: #8EA1E1;
-}
-.end{
     font-size: 26px;
     margin: 0 auto;
-    padding-bottom: 0;
+
 }
 /* footer */
 footer{
     background-color: black;
     padding: 50px 0;
     display: flex;
-    margin: 50px auto;
 }
 
 footer .footer-top{
-    height: 600px;
+    height: 280px;
     display: flex;
     padding-bottom: 30px;
     border-bottom: 1px solid white;
+}
+.new-color{
+    color: #7289DA;
 }
 .ita{
     width: 42px;
@@ -168,10 +162,8 @@ span{
 }
 .footer-top .motto-col{
  flex-basis: 30%;
- background-color: lightcoral;
 }
 .footer-top .menu-col{
-    background-color: lightgreen;
     flex-basis: 70%;
     display: flex;
     justify-content: space-between;
