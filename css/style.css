@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+}
+
+section{
+    padding: 0 auto;
+    height: 498px;
+}
+.container{
+    max-width: 1200;
+    margin: 0 auto;
+}
+.debug .border{
+    border: 2px dashed black;
+
+}
+/* header navbar */
+header{
+    background-image: url(/img/jumbo.png);
+    background-size: contain ;
+    background-repeat: no-repeat;
+}
+#navbar{
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo-col{
+    background-image: url(/img/logo.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 19px 67px; 
+}
+a{
+    margin: 10px;
+}
+.actions-col{
+    background-color: white;
+    text-align: end;
+    border-radius: 50px;
+    padding: 5px 10px;
+
+}
+/* jumbotron */
+#jumbotron{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#jumbotron .content{
+ height: 61%;
+ width: 69%;
+ font-size: 31px;
+ 
+}
+.btn,.primary {
+    background-color: white;
+    border-radius: 50px;
+    padding: 15px 17px;
+    border: none;
+    margin: 20px;
+    font-size: 22px;
+}
+.second{
+    background-color: black;
+    border-color: white;
+}
+
+.black-text{
+    color: black;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-grey{
+    background-color: grey;
+}
+.section-container{
+ display: flex;
+ height: 100%;
+ max-width: 1200px;
+ margin: 0 auto;
+}
+.large-col{
+    flex-basis: 60%;
+    background-color: aquamarine;
+}
+.small-col{
+    flex-basis: 40%;
+    background-color: pink;
+}
+.full-col{
+    flex-basis: 100%;
+    background-color: green;
+}
+footer{
+    background-color: black;
+    padding: 50px 0;
+}
+.debug footer .border{
+    border-color: white;
+}
+footer .footer-top{
+    height: 600px;
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1 px solid white;
+}
+.footer-top .motto-col{
+ flex-basis: 30%;
+ background-color: lightcoral;
+}
+.footer-top .menu-col{
+    background-color: lightgreen;
+    flex-basis: 70%;
+    display: flex;
+    justify-content: flex-start;
+   }
+footer .footer-bottom{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.footer-bottom > * {
+    padding: 5px;
+    background-color: aquamarine;
+}
