@@ -9,6 +9,9 @@
 i{
     padding-right: 10px;
 }
+h1{
+    padding-bottom: 20px;
+}
 section{
     padding: 0;
     height: 498px;
@@ -131,10 +134,15 @@ font-weight: normal;
     text-align: center;
 
 }
+.star{
+    position: relative;
+    text-align: center;
+    color: black;
+}
 .mac{
     background-color: #8EA1E1;
     font-size: 26px;
-    margin: 0 auto;
+    padding: 0 auto;
 
 }
 /* footer */
@@ -155,6 +163,9 @@ footer .footer-top{
 }
 .ita{
     width: 42px;
+    text-align: center;
+}
+.language{
     text-align: center;
 }
 span{
